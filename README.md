@@ -15,3 +15,4 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 </p>
 
 [image](http://docs.cloudfoundry.org/loggregator/architecture.html)
+
