@@ -12,6 +12,6 @@ Loggregator´Â CFÀÇ user appµé°ú System ComponentµéÀÇ log¿Í metricÀ» ¸ğÀ¸°í Àü´ŞÇ
 
 <p align="center">
 <img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
-ÃâÃ³ : [Loggregator](http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png)
 </p>
+ÃâÃ³ : [LoggregatorÀÌ¹ÌÁö](http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png)
 
