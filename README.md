@@ -11,5 +11,5 @@ Loggregator´Â CFÀÇ user appµé°ú System ComponentµéÀÇ log¿Í metricÀ» ¸ğÀ¸°í Àü´ŞÇ
 * ¿ÀÆÛ·¹ÀÌÅÍ´Â Firehose¿¡ NozzleÀ» »ç¿ëÇÒ ¼ö ÀÖÀ¸¸ç, NozzleÀº Firehose¸¦ ¸ğ´ÏÅÍ¸¦ ÇØ¼­ Æ¯Á¤ ÀÌº¥Æ®¿Í metricÀ» Ã£¾Æ¼­ ¿ÜºÎ ¼­ºñ½º·Î Àü´ŞÇØÁØ´Ù. 
 
 <p align="center">
-<img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="70%">
+<img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
 </p>
