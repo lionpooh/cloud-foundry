@@ -15,3 +15,4 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 </p>
 출처: [Loggregator](http://docs.cloudfoundry.org/loggregator/images/architecture.html)
 [출처](http://docs.cloudfoundry.org)
+[on Slack](http://slack.snap-telemetry.io)
