@@ -17,5 +17,7 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 [이미지 출처](http://docs.cloudfoundry.org/loggregator/architecture.html)
 
 ~~~java
-	System.out.println("hello");
+	class Test	{
+		private String name;
+	}
 ~~~
