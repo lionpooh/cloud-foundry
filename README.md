@@ -2,16 +2,16 @@
 
 ## Loggregator
 
-Loggregator´Â CFÀÇ user appµé°ú System ComponentµéÀÇ log¿Í metricÀ» ¸ğÀ¸°í Àü´ŞÇÏ±â À§ÇÑ ½Ã½ºÅÛÀÌ´Ù.
+LoggregatorëŠ” CFì˜ user appë“¤ê³¼ System Componentë“¤ì˜ logì™€ metricì„ ëª¨ìœ¼ê³  ì „ë‹¬í•˜ê¸° ìœ„í•œ ì‹œìŠ¤í…œì´ë‹¤.
 
-* App °³¹ßÀÚ´Â applicationÀÇ log³ª °¡Àå ÃÖ±Ù log¸¦ Cloud FoundryÀÇ CLI(cf Command LIne Interface) È¤Àº, third-party log ÀúÀå¼Ò¿Í ºĞ¼® ¼­ºñ½º¸¦ ÅëÇØ¼­
-º¼ ¼ö ÀÖ´Ù.
-* °ü¸®ÀÚ¿Í, ¿ÀÆÛ·¹ÀÌÅÍ´Â Loggregator¸¦ Firehose¸¦ ÅëÇØ¼­ Á¢±Ù ÇÒ ¼ö ÀÖÀ¸¸ç, ¿©±â¼­ ¸ğµç appµéÀÇ log¿Í cloud foudnry componentµéÀÇ metricÁ¤º¸µéÀ» ¸ğÀº´Ù.
+* App ê°œë°œìëŠ” applicationì˜ logë‚˜ ê°€ì¥ ìµœê·¼ logë¥¼ Cloud Foundryì˜ CLI(cf Command LIne Interface) í˜¹ì€, third-party log ì €ì¥ì†Œì™€ ë¶„ì„ ì„œë¹„ìŠ¤ë¥¼ í†µí•´ì„œ
+ë³¼ ìˆ˜ ìˆë‹¤.
+* ê´€ë¦¬ìì™€, ì˜¤í¼ë ˆì´í„°ëŠ” Loggregatorë¥¼ Firehoseë¥¼ í†µí•´ì„œ ì ‘ê·¼ í•  ìˆ˜ ìˆìœ¼ë©°, ì—¬ê¸°ì„œ ëª¨ë“  appë“¤ì˜ logì™€ cloud foudnry componentë“¤ì˜ metricì •ë³´ë“¤ì„ ëª¨ì€ë‹¤.
 
-* ¿ÀÆÛ·¹ÀÌÅÍ´Â Firehose¿¡ NozzleÀ» »ç¿ëÇÒ ¼ö ÀÖÀ¸¸ç, NozzleÀº Firehose¸¦ ¸ğ´ÏÅÍ¸¦ ÇØ¼­ Æ¯Á¤ ÀÌº¥Æ®¿Í metricÀ» Ã£¾Æ¼­ ¿ÜºÎ ¼­ºñ½º·Î Àü´ŞÇØÁØ´Ù. 
+* ì˜¤í¼ë ˆì´í„°ëŠ” Firehoseì— Nozzleì„ ì‚¬ìš©í•  ìˆ˜ ìˆìœ¼ë©°, Nozzleì€ Firehoseë¥¼ ëª¨ë‹ˆí„°ë¥¼ í•´ì„œ íŠ¹ì • ì´ë²¤íŠ¸ì™€ metricì„ ì°¾ì•„ì„œ ì™¸ë¶€ ì„œë¹„ìŠ¤ë¡œ ì „ë‹¬í•´ì¤€ë‹¤. 
 
 <p align="center">
 <img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
 </p>
-ÃâÃ³ : [LoggregatorÀÌ¹ÌÁö](http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png)
+ì¶œì²˜ : [Loggregator ì´ë¯¸ì§€](http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png)
 
