@@ -14,8 +14,6 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 <img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
 </p>
 
-[image](http://docs.cloudfoundry.org/loggregator/architecture.html)
+[이미지 출처](http://docs.cloudfoundry.org/loggregator/architecture.html)
 
-~~~~
-블록 설정
-~~~~
+블록{: .table}
