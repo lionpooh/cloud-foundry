@@ -16,6 +16,6 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 
 [이미지 출처](http://docs.cloudfoundry.org/loggregator/architecture.html)
 
-<div>
+<div style="border: 1px solid">
 Note- Loggregator 시스템은 안정성과, 성능 향상을 위해서  Metron Agent와 Doppler, Doppler와 Traffic Controller는 gRPC를 통해서 서로 통신을 한다. 하지만 이러한 점 때문에 Operator는 Doppler의 scale을 고려해야 할지도 모른다.
 </div>
