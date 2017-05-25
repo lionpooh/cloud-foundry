@@ -39,20 +39,25 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 ### Source
 Source는 logging agent이며 Cloud Foundry Component위에서 동작한다.
 
+
 ### Metron
 Metron agent는 Source와 같은 곳에 있으며, log를 수집해서 Doppler server에게 전달해 준다.
+
 
 ### Doppler
 Doppler는 Metron agent로 부터 log를 수집해서 임시 버퍼에 저장하고 있다가, Traffic Controller혹은, third-party syslog drain에게 전달해준다.
 * third-party?
 
+
 ### Trafic Controller
 Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하며, 모으고 수집하여서 Firehose쪽으로 보내줍니다. 또한 external API와 메시지 변환을 위한 Lagacy API들을 제공합니다.
+
 
 ### Firehose
 Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric(사용자가 올린 app이 아닌듯 하다)과 Cloud Foundry의 모든 system component들의 metric을 포함하고 있다. system component들의 Log들은 (e.g Cloud Controller) firehose로 넘어오지 않는다. 일반적으로 rsyslog configuration을 통해서 접근하게 된다.
 
 Firehose를 통해서 넘어오는 데이터 중에는 민감한 데이터가 포함되어 있을 수가 있다. 예를 들어 고객의 정보가 담긴 정보같은 경우에는  그 권한에 맞는 사용자만 Firehose에 접근할수 있게 해야 한다.
+
 
 ### Diffrence Between Logs and Metrics
 Firehose는 log와 metric정보들을 가지고 다닌다. 그 둘의 차이점은 다음과 같다.
@@ -64,6 +69,7 @@ Firehose는 log와 metric정보들을 가지고 다닌다. 그 둘의 차이점�
 	* event 감시, action에 대한 결과, errors, 혹은 operator나 개발자가 커스텀 해서 추가한 메시지를 포함할수 있다.
 	* syslog standard를 따른다.
 	* trigger alert은 사용하지 않는다.
+
 
 ### Nozzles
 Nozzle들은 Loggregator Firehose에서 부터 데이터를 consume(수집이라고 보면 될듯)하기 위한 용도로 사용된다. Nozzle은 데이터를 선택하고, 버퍼에 넣고, 변환하여 다른 application혹은 service에게 전달해줄수 있다.
