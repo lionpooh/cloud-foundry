@@ -16,7 +16,7 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 볼 수 있다.
 * 관리자와, 오퍼레이터는 Loggregator를 Firehose를 통해서 접근 할 수 있으며, 여기서 모든 app들의 log와 cloud foudnry component들의 metric정보들을 모은다.
 
-* 오퍼레이터는 Firehose에 Nozzle을 사용할 수 있으며, Nozzle은 Firehose를 모니터를 해서 특정 이벤트와 metric을 찾아서 외부 서비스로 전달해준다. 
+* 오퍼레이터는 Firehose에 Nozzle을 사용할 수 있으며, Nozzle은 Firehose를 모니터를 해서 특정 이벤트와 metric을 찾아서 외부 서비스로 전달해준다.[^1]
 
 <p align="center">
 <img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
@@ -41,3 +41,7 @@ Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하�
 
 ### Firehose
 Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과  
+
+---
+
+[^1] 응 안해
