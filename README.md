@@ -44,4 +44,4 @@ Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 �
 
 APT[^APT]
 
-[^APT]: apt는 뭐뭐당
+[^APT]: APT는 뭐뭐당
