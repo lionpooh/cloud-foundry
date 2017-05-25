@@ -3,8 +3,6 @@
 
 이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다.
 
-gack [^1]
-
 * 저작권에 위배되는 내용이라면 언제든지 삭제 및 수정이 될 수 있습니다.
 
 # cloud-foundry
@@ -42,5 +40,3 @@ Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하�
 
 ### Firehose
 Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과  
-
-[^1]: 각주
