@@ -39,9 +39,4 @@ Doppler는 Metron agent로 부터 log를 수집해서 임시 버퍼에 저장하
 Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하며, 모으고 수집하여서 Firehose쪽으로 보내줍니다. 또한 external API와 메시지 변환을 위한 Lagacy API들을 제공합니다.
 
 ### Firehose
-Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과  
-
-
-APT[^APT]
-
-[^APT]: APT는 뭐뭐당
+Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과
