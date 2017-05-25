@@ -7,6 +7,10 @@
 
 # cloud-foundry
 
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/CloudFoundryCorp_vertical.svg/450px-CloudFoundryCorp_vertical.svg.png"/>
+</p>
+
 ## Loggregator
 
 Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모으고 전달하기 위한 시스템이다.
