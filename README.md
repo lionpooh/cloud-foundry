@@ -5,11 +5,15 @@
 * 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 읽을 것입니다.
 * 저작권에 위배되는 내용이라면 언제든지 삭제 및 수정이 될 수 있습니다.
 
-# cloud-foundry
+# Cloud-Foundry
 
-<p>
+<p align="center">
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/CloudFoundryCorp_vertical.svg/450px-CloudFoundryCorp_vertical.svg.png"/>
 </p>
+
+* **!Note!** Cloud Foundry에 관련된 것들을 끄적인 문서, ~~당신이 원하는 내용이 없을 수도 있다~~
+* 나머지 것들은 언젠가 정리하게 될 것이다. ~~하지 않을 것이다~~
+* 자료 원본 링크 - http://docs.cloudfoundry.org/ ~~여기 어딘가에서 퍼온 것들~~
 
 ## Loggregator
 
