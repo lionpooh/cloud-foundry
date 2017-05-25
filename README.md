@@ -1,11 +1,7 @@
-<p>
-<img src="https://cdn.pixabay.com/photo/2013/07/12/13/58/warning-147699_960_720.png" width="30%"/>
-<div>
-* 이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다.[^1]
 
+<img src="https://cdn.pixabay.com/photo/2013/07/12/13/58/warning-147699_960_720.png" width="30%"/>
+* 이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다.[^1]
 * 저작권에 위배되는 내용이라면 언제든지 삭제 및 수정이 될 수 있습니다.
-</div>
-</p>
 
 # cloud-foundry
 
