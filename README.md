@@ -42,4 +42,4 @@ Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 �
 
 ---
 
-[^1]: i don't care
+[^1]:i don't care
