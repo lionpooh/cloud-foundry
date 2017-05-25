@@ -1,7 +1,7 @@
 <p>
 <img src="https://cdn.pixabay.com/photo/2013/07/12/13/58/warning-147699_960_720.png" width="30%"/>
 <div>
-이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다. 
+이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다.[^1]
 저작권에 위배되는 내용이라면 언제든지 삭제 및 수정이 될 수 있습니다.
 </div>
 </p>
@@ -16,7 +16,7 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 볼 수 있다.
 * 관리자와, 오퍼레이터는 Loggregator를 Firehose를 통해서 접근 할 수 있으며, 여기서 모든 app들의 log와 cloud foudnry component들의 metric정보들을 모은다.
 
-* 오퍼레이터는 Firehose에 Nozzle을 사용할 수 있으며, Nozzle은 Firehose를 모니터를 해서 특정 이벤트와 metric을 찾아서 외부 서비스로 전달해준다.[^1]
+* 오퍼레이터는 Firehose에 Nozzle을 사용할 수 있으며, Nozzle은 Firehose를 모니터를 해서 특정 이벤트와 metric을 찾아서 외부 서비스로 전달해준다.
 
 <p align="center">
 <img src="http://docs.cloudfoundry.org/loggregator/images/architecture/loggregator.png" width="90%">
@@ -44,4 +44,4 @@ Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 �
 
 ---
 
-[^1] 응 안해
+[^1]: 응 안해
