@@ -40,6 +40,6 @@ Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하�
 ### Firehose
 Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과  
 
----
+--
 
 [^1]: i don't care
