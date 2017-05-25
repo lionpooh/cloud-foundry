@@ -10,7 +10,7 @@
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/CloudFoundryCorp_vertical.svg/450px-CloudFoundryCorp_vertical.svg.png"/>
 
 **Cloud Foundry**란? 
->OpenSource PaaS Platform
+>**OpenSource PaaS Platform**
 
 * Cloud Foundry에 관련된 것들을 끄적인 문서, ~~당신이 원하는 내용이 없을 수도 있다~~
 * 나머지 것들은 언젠가 정리하게 될 것이다. ~~하지 않을 것이다~~
@@ -33,7 +33,7 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 
 [이미지 출처](http://docs.cloudfoundry.org/loggregator/architecture.html)
 
-Note - Loggregator 시스템은 안정성과, 성능 향상을 위해서  Metron Agent와 Doppler, Doppler와 Traffic Controller는 gRPC를 통해서 서로 통신을 한다. 하지만 이러한 점 때문에 Operator는 Doppler의 scale을 고려해야 할지도 모른다. (그림 처럼 Doppler를 여러개를 두어서 load balance한다는 의미인듯?)
+>**Note** - Loggregator 시스템은 안정성과, 성능 향상을 위해서  Metron Agent와 Doppler, Doppler와 Traffic Controller는 gRPC를 통해서 서로 통신을 한다. 하지만 이러한 점 때문에 Operator는 Doppler의 scale을 고려해야 할지도 모른다. (그림 처럼 Doppler를 여러개를 두어서 load balance한다는 의미인듯?)
 
 ### Source
 Source는 logging agent이며 Cloud Foundry Component위에서 동작한다.
