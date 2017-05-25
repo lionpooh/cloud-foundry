@@ -1,3 +1,11 @@
+<p>
+<img src="https://cdn.pixabay.com/photo/2013/07/12/13/58/warning-147699_960_720.png"/>
+<div>
+이 문서는 내 맘대로 번역한 문서입니다. 태클을 걸고 싶거나 문의 내용이 있으시다면 lionpooh37@gmail.com으로 문의를 주시면 '아마도' 무엇인가 할 것입니다. 
+저작권에 위배되는 내용이라면 언제든지 삭제 및 수정이 될 수 있습니다.
+</div>
+</p>
+
 # cloud-foundry
 
 ## Loggregator
@@ -16,7 +24,7 @@ Loggregator는 CF의 user app들과 System Component들의 log와 metric을 모�
 
 [이미지 출처](http://docs.cloudfoundry.org/loggregator/architecture.html)
 
-Note- Loggregator 시스템은 안정성과, 성능 향상을 위해서  Metron Agent와 Doppler, Doppler와 Traffic Controller는 gRPC를 통해서 서로 통신을 한다. 하지만 이러한 점 때문에 Operator는 Doppler의 scale을 고려해야 할지도 모른다. (그림 처럼 Doppler를 여러개를 두어서 load balance한다는 의미인듯?)
+Note - Loggregator 시스템은 안정성과, 성능 향상을 위해서  Metron Agent와 Doppler, Doppler와 Traffic Controller는 gRPC를 통해서 서로 통신을 한다. 하지만 이러한 점 때문에 Operator는 Doppler의 scale을 고려해야 할지도 모른다. (그림 처럼 Doppler를 여러개를 두어서 load balance한다는 의미인듯?)
 
 ### Source
 Source는 logging agent이며 Cloud Foundry Component위에서 동작한다.
@@ -29,4 +37,7 @@ Doppler는 Metron agent로 부터 log를 수집해서 임시 버퍼에 저장하
 * third-party?
 
 ### Trafic Controller
-Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하며, 모으고 수집합니다. 
+Traffic Controller는 Doppler server로 부터 오는 메시지들을 처리하며, 모으고 수집하여서 Firehose쪽으로 보내줍니다. 또한 external API와 메시지 변환을 위한 Lagacy API들을 제공합니다.
+
+### Firehose
+Firehose는 WebSocket endpoint이며, Cloud Foundry의 모든 event data들이 모이게 된다. 이러한 데이터는 Log를 포함하고 있으며, HTTP event들 뿐만 아니라 container의 모든 application metric과  
